@@ -1,0 +1,7 @@
+{
+  "threshold": 5,
+  "reporters": ["console"],
+  "ignore": ["**/node_modules/**", "**/package-lock.json", "**/dist/**", "**/*.md"],
+  "format": ["typescript", "javascript"],
+  "mode": "strict"
+}

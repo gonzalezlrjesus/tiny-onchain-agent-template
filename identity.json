@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "alias": "tiny-onchain-agent-template",
+  "network": "testnet",
+  "networkPassphrase": "Test SDF Network ; September 2015",
+  "publicKey": "REPLACE_WITH_YOUR_TESTNET_PUBLIC_KEY",
+  "note": "EVM mapping: ERC-8004 onchain identity -> Stellar account + data entries. Set after first run.",
+  "dataEntries": {
+    "agent.ai.role": "tiny-observe-reason-act",
+    "agent.ai.stack": "typescript + stellar-sdk + horizon-testnet + friendbot",
+    "agent.ai.repo": "https://github.com/gonzalezlrjesus/tiny-onchain-agent-template"
+  },
+  "explorer": "https://stellar.expert/explorer/testnet/account/REPLACE_WITH_YOUR_TESTNET_PUBLIC_KEY"
+}

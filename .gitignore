@@ -1,6 +1,10 @@
 # Logs
 logs
 *.log
+ledger-log.jsonl
+.stryker-tmp/
+reports/
+coverage/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
